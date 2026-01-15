@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Reader",
+    "slug": "reader",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "jsEngine": "jsc",
+    "ios": {
+      "bundleIdentifier": "com.readerapp.mobile"
+    },
+    "android": {
+      "package": "com.readerapp.mobile"
+    },
+    "plugins": [
+      [
+        "react-native-iap",
+        {
+          "iapEnabled": true
+        }
+      ]
+    ]
+  }
+}
