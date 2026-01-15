@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Reader</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 40px;
+            margin-top: 40px;
+        }
+
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #764ba2;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .contact-method {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
+
+        .contact-method h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .contact-method a {
+            color: #764ba2;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-method a:hover {
+            text-decoration: underline;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .faq-item h3 {
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+
+        .faq-item p {
+            color: #555;
+            margin: 0;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin-top: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Support</h1>
+        <p class="subtitle">Get help with Reader</p>
+
+        <div class="section">
+            <h2>Contact Us</h2>
+            <p>We're here to help! Choose the best way to reach us:</p>
+
+            <div class="contact-method">
+                <h3>📧 Email Support</h3>
+                <p>For questions, bug reports, or feature requests, please email us:</p>
+                <a href="mailto:czstudiosg@hotmail.com">czstudiosg@hotmail.com</a>
+                <p style="margin-top: 10px; font-size: 0.9em; color: #666;">We typically respond within 24-48 hours.</p>
+            </div>
+
+            <div class="contact-method">
+                <h3>🐛 Report Issues on GitHub</h3>
+                <p>Found a bug or have a feature request? Open an issue on our GitHub repository:</p>
+                <a href="https://github.com/zztttttt/Reader/issues" target="_blank">https://github.com/zztttttt/Reader/issues</a>
+            </div>
+
+            <div class="contact-method">
+                <h3>📱 App Store Reviews</h3>
+                <p>If you're experiencing issues with the app, please contact us directly via email or GitHub. We monitor all feedback and will address your concerns promptly.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <h3>How do I upload a PDF?</h3>
+                <p>On the main screen, tap “Upload File” and choose a text-based PDF from your device.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Why is my PDF not loading?</h3>
+                <p>Image-only or scanned PDFs require OCR. Reader currently supports text-based PDFs only.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I change my reading speed?</h3>
+                <p>Tap the WPM button to open the speed input and set your preferred pace.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Is my data stored securely?</h3>
+                <p>All content is stored locally on your device. We do not upload your files to our servers.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Privacy & Data</h2>
+            <p>Your privacy matters. Reader processes text locally and does not transmit your files. For details, see the <a href="privacy-policy.html">Privacy Policy</a>.</p>
+        </div>
+
+        <a href="index.html" class="back-link">← Back to App</a>
+    </div>
+</body>
+</html>

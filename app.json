@@ -5,12 +5,25 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "jsEngine": "jsc",
     "ios": {
-      "bundleIdentifier": "com.readerapp.mobile"
+      "bundleIdentifier": "com.readerapp.mobile",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
-      "package": "com.readerapp.mobile"
+      "package": "com.readerapp.mobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
     },
     "plugins": [
       [
@@ -19,6 +32,12 @@
           "iapEnabled": true
         }
       ]
-    ]
+    ],
+    "owner": "czstudios",
+    "extra": {
+      "eas": {
+        "projectId": "ae596e5e-0e85-41f2-b806-f8792847b44c"
+      }
+    }
   }
 }
